@@ -80,7 +80,8 @@ btnMinusShoe.addEventListener("click", function () {
 
 //? Sumbit Button SweetAlert
 
-submitBtn.addEventListener('click' , function(){
+submitBtn.addEventListener('click' , function(e){
+    e.preventDefault();
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
         confirmButton: "btn btn-success",

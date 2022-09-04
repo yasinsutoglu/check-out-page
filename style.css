@@ -267,3 +267,29 @@ src: url(‘fonts/Montserrat-Regular.ttf’) format(“truetype”);
         margin: auto;
     }
 }
+
+@media screen and (max-width:550px){
+    .country-code{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .country-code .country{
+        width:100%;
+    }
+
+    .post-code{
+        width: 100%;
+    }
+
+    .product1 , .product2 {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product1 img , .product2 img{
+        width:100%;
+    }
+
+}
